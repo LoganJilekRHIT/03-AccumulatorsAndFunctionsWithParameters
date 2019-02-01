@@ -157,6 +157,8 @@ def lines():
     line_guy1.attach_to(line_window)
     print(line_guy1.get_midpoint())
     # HOW DO I DO THISSSSSS?
+    print('X:', 300)
+    print('Y:', 200)
 
     # Line 2
     line_guy2 = rg.Line(rg.Point(300, 300), rg.Point(100, 400))
